@@ -24,7 +24,7 @@
             <!--This sends everything else to /public -->
             <id>nexusCentral</id>
             <mirrorOf>central</mirrorOf>
-            <url>http://31.220.71.216:8081/nexus/content/repositories/central/</url>
+            <url>http://31.220.69.59:8081/nexus/content/repositories/central/</url>
 <!--                <url>http://repo.demo.redhat.com:8081/nexus/content/groups/public/</url>-->
 <!--            <url>http://153.92.38.36:8081/nexus/content/groups/public/</url>-->
 <!--            <url>http://nexus.cloudapps.workshopdevops.com/content/groups/public/</url>-->
@@ -32,7 +32,7 @@
 	 <mirror> 
             <id>nexusRedhat</id>
             <mirrorOf>redhat-techpreview-all-repository</mirrorOf>
-            <url>http://31.220.71.216:8081/nexus/content/repositories/redhat-techpreview-all-repository/</url>
+            <url>http://31.220.69.59:8081/nexus/content/repositories/redhat-techpreview-all-repository/</url>
 	</mirror>
     </mirrors>
     <profiles>
@@ -57,7 +57,7 @@
     	 <repository>
 	      <id>central</id>
 	      <name>Central Repository</name>
-	      <url>http://31.220.71.216:8081/nexus/content/repositories/central/</url>
+	      <url>http://31.220.69.59:8081/nexus/content/repositories/central/</url>
 	      <snapshots>
 	        <enabled>false</enabled>
 	      </snapshots>
@@ -68,7 +68,7 @@
         <repository>
             <id>redhat-techpreview-all-repository</id>
           <!--  <url>https://maven.repository.redhat.com/techpreview/all/</url> -->
-          <url>http://31.220.71.216:8081/nexus/content/repositories/redhat-techpreview-all-repository/</url>
+          <url>http://31.220.69.59:8081/nexus/content/repositories/redhat-techpreview-all-repository/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -78,7 +78,7 @@
         </repository>
         <repository>
           <id>jboss-eap-repository</id>
-          <url>http://31.220.71.216:8081/nexus/content/repositories/jboss-eap-repository/</url>
+          <url>http://31.220.69.59:8081/nexus/content/repositories/jboss-eap-repository/</url>
           <releases>
             <enabled>true</enabled>
           </releases>
@@ -92,7 +92,7 @@
     	<pluginRepository>
 	    <id>central</id>
 	      <name>Central Repository</name>
-	      <url>http://31.220.71.216:8081/nexus/content/repositories/central/</url>
+	      <url>http://31.220.69.59:8081/nexus/content/repositories/central/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -103,7 +103,7 @@
         <pluginRepository>
             <id>redhat-techpreview-all-repository</id>
             <!--<url>https://maven.repository.redhat.com/techpreview/all/</url>-->
-            <url>http://31.220.71.216:8081/nexus/content/repositories/redhat-techpreview-all-repository/</url>
+            <url>http://31.220.69.59:8081/nexus/content/repositories/redhat-techpreview-all-repository/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
